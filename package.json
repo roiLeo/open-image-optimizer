@@ -1,5 +1,5 @@
 {
-  "private": true,
+  "name": "social-media-image-optimizer",
   "scripts": {
     "dev": "nuxi dev",
     "build": "nuxi build",
