@@ -1,47 +1,51 @@
-# Nuxtplate 🍽
+## Features
 
-> Look at the [nuxt documentation](https://nuxt.com/) to learn more.
+### 📤 Image Upload
 
-This is the Nuxtjs boilerplate. It contains the following conventions/features:
+Drag & drop or click to upload
+Supports PNG, JPG, WebP formats
 
-- [x] 🪲 [Typescript](https://www.typescriptlang.org/)
-- [x] 💚 [Nuxt](https://nuxt.com//)
-- [x] 🌊 [Nuxt UI](https://ui.nuxt.com/)
-- [x] ✨ [Eslint](https://eslint.org/) & [Prettier](https://prettier.io/)
-- [x] 🐕 [Husky](https://github.com/typicode/husky) git hooks
+### 📱 Social Media Platforms
 
-## Setup
+Instagram Post (1:1), Story (9:16)
+Facebook, Twitter, LinkedIn posts
+YouTube thumbnails
+Pinterest pins
+TikTok format
+
+### ⚙️ Customization
+
+Adjustable quality slider (50-100%)
+Smart image cropping to fit aspect ratios
+Real-time preview
+
+### 📊 Optimization Stats
+
+Original vs optimized file size
+Percentage saved
+Final dimensions display
+
+### 💾 Download
+
+One-click download of optimized images
+Automatic filename with platform name
+
+## Run the app
 
 Make sure to install the dependencies:
 
 ```bash
-yarn
+pnpm install
 ```
-
-## Development Server
 
 Start the development server on http://localhost:3000
 
 ```bash
-yarn dev
+pnpm dev
 ```
 
-## Production
-
-Build the application for production:
+Build the application for production
 
 ```bash
-yarn build
+pnpm build
 ```
-
-Locally preview production build:
-
-```bash
-yarn preview
-```
-
-## Deployment
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FroiLeo%2FNuxtplate) [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/roiLeo/Nuxtplate)
-
-Checkout the [deployment documentation](https://nuxt.com//guide/deploy/presets) for more information.
